@@ -1,4 +1,5 @@
 body {
+    background-color: rgba(255, 255, 255, 0.5);
     font-family: Arial, sans-serif;
     background-color: #f4f4f4; /* Background color for the body */
     margin: 0;
@@ -7,24 +8,57 @@ body {
 }
 
 header {
+    
+    background-color: rgba(0,0,0,0);
+    background;:
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px;
 }
-
-section {
-    background-color: transparent;
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.profile-image {
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 20px; /* Adjust margin as needed */
+    width: 120px; /* Adjust width as needed */
+    height: 120px; /* Adjust height as needed */
 }
 
-h1, h2, h3 {
-    color: #333;
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fffdfd; /* Add a border if desired */
+}
+
+
+section {
+    background-color: rgba(0,0,0,0);
+    padding: auto;   max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    animation: linear cubic-bezier(0.075, 0.82, 0.165, 1) timing-function delay iteration-count direction fill-mode;
+    
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-display:calc(max-width);
+    font-weight: 600;
+    font-style:oblique;
+    color: rgba(0, 0, 0, 0.629);
+}    
+
+
+ h2, h3 {
+    color:rgb(78, 86, 82);
+    text-align: center;
+    font-family: ;
+    background-color: transparent;
 }
 
 .icon {
@@ -33,7 +67,8 @@ h1, h2, h3 {
 }
 
 .social-links a {
-    color: #333;
+   
+    color:#f4f4f4;
     text-decoration: none;
     margin-right: 15px;
 }
